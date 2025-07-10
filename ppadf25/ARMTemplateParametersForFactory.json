@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ppadf25"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://myadlsg2g2.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-IGBFVUS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "Demo"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "DESKTOP-IGBFVUS"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2022"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "adfuser"
+		}
+	}
+}
