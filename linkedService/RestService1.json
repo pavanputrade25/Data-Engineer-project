@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs/all",
+			"url": "https://api-football-v1.p.rapidapi.com/v2/odds/league/865927/bookmaker/5?page=2",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
