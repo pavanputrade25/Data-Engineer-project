@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://alexwohlbruck.github.io/cat-facts/",
+			"url": "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs/all",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
