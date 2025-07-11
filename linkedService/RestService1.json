@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://api-football-v1.p.rapidapi.com/v2/odds/league/865927/bookmaker/5?page=2",
+			"url": "https://restcountries.com/v3.1/all?fields=name,flags",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
