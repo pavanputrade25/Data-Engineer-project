@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedText2_sharedirve",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "On_prem files",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "salaries.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
